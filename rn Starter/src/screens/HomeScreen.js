@@ -52,6 +52,12 @@ const HomeScreen = (props) => {
         }}
         title="Text Screen"
       />
+      <Button
+        onPress={() => {
+          props.navigation.navigate("Box");
+        }}
+        title="Box Screen"
+      />
     </View>
   );
 };
